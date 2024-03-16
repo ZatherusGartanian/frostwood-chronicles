@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events>
+    <event>
+        <eventText>On a hill in front of you, you spot an elk. It has not noticed you yet and could be an easy meal.</eventText>
+        <button1Text>Attack</button1Text>
+        <button1Outcome>Health -10 Food +1</button1Outcome>
+        <button2Text>Leave</button2Text>
+        <button2Outcome>Stamina +5</button2Outcome>
+        <outcome1Text>You draw your bow and loose an arrow at the majestic elk. It is a solid hit, but the elk charges you before it collapses to the ground. You take 10 damage in the attack but have another meal.</outcome1Text>
+        <outcome2Text>You look towards the elk in awe. It bows it's head towards you as if in understanding. You feel invigorated by the experience and have recovered 5 stamina.</outcome2Text>
+        <repeatable>false</repeatable>
+    </event>
+
+    <event>
+        <eventText>You come across a bush with delicious looking berries. You are unfamiliar with the type of berry but are starving.</eventText>
+        <button1Text>Ignore Them</button1Text>
+        <button1Outcome>Nothing 0</button1Outcome>
+        <button2Text>Eat Some</button2Text>
+        <button2Outcome>Health -10</button2Outcome>
+        <outcome1Text>You leave the berries behind, walking away hungry.</outcome1Text>
+        <outcome2Text>The berries were poisonous. You lose 10 health.</outcome2Text>
+        <repeatable>true</repeatable>
+    </event>
+
+    <event>
+        <eventText>You come across a bush with delicious looking berries. You are unfamiliar with the type of berry but are starving.</eventText>
+        <button1Text>Ignore Them</button1Text>
+        <button1Outcome>Nothing 0</button1Outcome>
+        <button2Text>Eat Some</button2Text>
+        <button2Outcome>MaxStamina +10 Stamina +10</button2Outcome>
+        <outcome1Text>You leave the berries behind, walking away hungry.</outcome1Text>
+        <outcome2Text>The berries invigorate you. You feel refreshed to take on the day. You recovered 10 Fatigue and Stamina.</outcome2Text>
+        <repeatable>true</repeatable>
+    </event>
+
+    <event>
+        <eventText>You stumble upon an old, abandoned cabin. You get a chill down your spine just looking at the shack. Your stomach growls at you reminding you that there could be supplies inside.</eventText>
+        <button1Text>Enter</button1Text>
+        <button1Outcome>Health -5 MaxStamina +5</button1Outcome>
+        <button2Text>Walk Away</button2Text>
+        <button2Outcome>Nothing 0</button2Outcome>
+        <outcome1Text>The cabin is infested with aggressive rodents that rush you the moment you open the door. You lose 5 health but the adrenaline rushing through your system has restored some of your fatigue.</outcome1Text>
+        <outcome2Text>You give into your fears and decide not to risk it. Turning your back on the cabin you return to the wilderness.</outcome2Text>
+        <repeatable>false</repeatable>
+    </event>
+
+    <event>
+        <eventText>You stumble upon an old, abandoned cabin. You get a chill down your spine just looking at the shack. Your stomach growls at you reminding you that there could be supplies inside.</eventText>
+        <button1Text>Enter</button1Text>
+        <button1Outcome>Minutes +60 Food +1 Water +1 Health -10</button1Outcome>
+        <button2Text>Walk Away</button2Text>
+        <button2Outcome>Nothing 0</button2Outcome>
+        <outcome1Text>The place appears ransacked but you decide to push your luck and search anyways. After an hour of searching your foot catches on a floor board. You pry the board aside, triggering a makeshift trap. You were lucky and were only grazed losing 5 health. Inside though, you find some food and water.</outcome1Text>
+        <outcome2Text>You give into your fears and decide not to risk it. Turning your back on the cabin you return to the wilderness.</outcome2Text>
+        <repeatable>false</repeatable>
+    </event>
+
+    <event>
+        <eventText>A mysterious fog rolls in, making it hard to see. You are concerned that pressing on will get you lost.</eventText>
+        <button1Text>Press On</button1Text>
+        <button1Outcome>Stamina -10</button1Outcome>
+        <button2Text>Set Camp</button2Text>
+        <button2Outcome>Health -10 Mana +30</button2Outcome>
+        <outcome1Text>You navigate through the fog successfully, but it takes a toll on your mental state.</outcome1Text>
+        <outcome2Text>You panic as you realize the noise of setting up your camp has stirred something in the fog. Wisps materialize out of the fog and attack you. You lash out in a frenzy and are able to take down a few before they drift back into the fog. You collect the magical essence of the ones that fell and drink deeply.</outcome2Text>
+        <repeatable>false</repeatable>
+    </event>
+
+    <event>
+        <eventText>You spot a shimmering pool of water. The light reflects off its surface, drawing you towards it.</eventText>
+        <button1Text>Drink</button1Text>
+        <button1Outcome>Health +5 Mana +10</button1Outcome>
+        <button2Text>Resist</button2Text>
+        <button2Outcome>Nothing 0</button2Outcome>
+        <outcome1Text>The water is pure and revitalizes you. You feel your wounds healing and your thirst being quenched. As you lean in for another sip your hands hit solid ground. You thank the woods for its temporary gift and return to the wilderness.</outcome1Text>
+        <outcome2Text>With some effort you resist the lure of the waters. As you back away, the pool disappears before your eyes leaving you sure you made the right choice. Witches magic must be at play.</outcome2Text>
+        <repeatable>true</repeatable>
+    </event>
+
+    <event>
+        <eventText>You spot a shimmering pool of water. The light reflects off its surface, drawing you towards it.</eventText>
+        <button1Text>Drink</button1Text>
+        <button1Outcome>Health -5 Mana -10</button1Outcome>
+        <button2Text>Resist</button2Text>
+        <button2Outcome>Nothing 0</button2Outcome>
+        <outcome1Text>As the water hits your throat you immediately regret your decision. You feel as though your insides are drying up, the poison water pulling the water from your system. Panicking, you pull away from the pool stopping more damage. You think you hear a cackle on the wind as the pool disappears.</outcome1Text>
+        <outcome2Text>With some effort you resist the lure of the waters. As you back away, the pool disappears before your eyes leaving you sure you made the right choice. Witches magic must be at play.</outcome2Text>
+        <repeatable>true</repeatable>
+    </event>
+
+    <event>
+        <eventText>You hear distant howls echoing through the forest. Wolves are close by and may have your scent.  </eventText>
+        <button1Text>Hide</button1Text>
+        <button1Outcome>Minutes +30</button1Outcome>
+        <button2Text>Confront</button2Text>
+        <button2Outcome>MaxHealth -5 Health -10 Food +2</button2Outcome>
+        <outcome1Text>You find some nearby brush to hind in. After a half hour of hiding you are fairly confident that the the wolves passed through, and you were able to avoid any confrontation.</outcome1Text>
+        <outcome2Text>Sneaking up on the wolves you are able to take down two of them before the pack rushes you. They overpower you, causing multiple painful bites. A noise creaks in the wind causing the wolves to stop their assault. The wolves howl before disappearing over a hill. You lost 10 health and took 5 grevious wounds. You look to the two dead wolves you took down, thankful to have not walked away empty handed.</outcome2Text>
+        <repeatable>false</repeatable>
+    </event>
+
+    <event>
+        <eventText>You discover a hidden trap set by other survivors. If you wait nearby you might get lucky and get a free meal.</eventText>
+        <button1Text>Avoid</button1Text>
+        <button1Outcome>Nothing 0</button1Outcome>
+        <button2Text>Wait</button2Text>
+        <button2Outcome>Minutes +60 Food +1</button2Outcome>
+        <outcome1Text>You decide to move on certain that your time will be better spent elsewhere.</outcome1Text>
+        <outcome2Text>You find some nearby brush to wait in. After an hour of waiting your patience has paid off and a bunny hops carelessly into the trap. Dinner is served.</outcome2Text>
+        <repeatable>true</repeatable>
+    </event>
+
+    <event>
+        <eventText>You discover a hidden trap set by other survivors. If you wait nearby you might get lucky and get a free meal.</eventText>
+        <button1Text>Avoid</button1Text>
+        <button1Outcome>Nothing 0</button1Outcome>
+        <button2Text>Wait</button2Text>
+        <button2Outcome>Minutes +60</button2Outcome>
+        <outcome1Text>You decide to move on certain that your time will be better spent elsewhere.</outcome1Text>
+        <outcome2Text>You find some nearby brush to wait in. After an hour of waiting you give up and return to the wilderness. Besides, who knows when the owners of the trap might return.</outcome2Text>
+        <repeatable>true</repeatable>
+    </event>
+
+    <event>
+        <eventText>You find a patch of rare herbs known for their unique healing properties. They are even known to restore grievous wounds. However, proper preparation of the herb can take hours.</eventText>
+        <button1Text>Harvest</button1Text>
+        <button1Outcome>MaxHealth +5 Minutes +120</button1Outcome>
+        <button2Text>Leave</button2Text>
+        <button2Outcome>Nothing 0</button2Outcome>
+        <outcome1Text>You carefully harvest the herb making sure not to damage the critical roots. The concoction takes time to prepare but when you finally eat remedy you feel your body recover. After spending 2 hours you have recovered 5 grievous wounds.</outcome1Text>
+        <outcome2Text>You decide that you do not have the time needed to properly prepare the herb.</outcome2Text>
+        <repeatable>true</repeatable>
+    </event>
+
+    <event>
+        <eventText>A friendly woodland creature scampers up to you. It tilts it head curiously at your pack before settling its stare on you.</eventText>
+        <button1Text>Feed</button1Text>
+        <button1Outcome>MaxHealth +10 Stamina +10</button1Outcome>
+        <button2Text>Ignore</button2Text>
+        <button2Outcome>Food +1</button2Outcome>
+        <outcome1Text>You reach into your pack and pull out some old crackers and offer it to the little critter. It nibbles away happily before pausing. It tilts it's head at you curiously and scampers off only to return moments later with what looks like a healing poultice. You gratefully apply the poultice, recovering 5 grievous wounds and 10 stamina.</outcome1Text>
+        <outcome2Text>You ignore the creature, and it eventually leaves without causing any trouble. Before heading out you double check your gear and find some crackers tucked away in your bag. It's your lucky day.</outcome2Text>
+        <repeatable>false</repeatable>
+    </event>
+
+    <event>
+        <eventText>You come across a mysterious stone covered in ancient runes. As you near it you can sense a magical energy radiating from the stone.</eventText>
+        <button1Text>Study It</button1Text>
+        <button1Outcome>Mana +100 Health -20 MaxHealth -5</button1Outcome>
+        <button2Text>Move On</button2Text>
+        <button2Outcome>Nothing 0</button2Outcome>
+        <outcome1Text>The moment your hand touches the stone you feel your lifeforce begin to drain. You try to pull your hand away but there is a magnetic force holding you in place. When stone is covered in your blood, your hand pops free. You watch in awe as your blood pools beneath the stone, glimmering and turning into water. A transaction was made. You put the bowl to your lips and drink feeling your thirst disappear.</outcome1Text>
+        <outcome2Text>Magic is not to be trifled with. You decide to avoid the mysterious stone and continue on your way.</outcome2Text>
+        <repeatable>true</repeatable>
+    </event>
+
+    <event>
+        <eventText>You come across a mysterious stone covered in ancient runes. As you near it you can sense a magical energy radiating from the stone.</eventText>
+        <button1Text>Study It</button1Text>
+        <button1Outcome>MaxStamina +50 Stamina +50 Minutes +60</button1Outcome>
+        <button2Text>Move On</button2Text>
+        <button2Outcome>Nothing 0</button2Outcome>
+        <outcome1Text>As you study the runes you feel a tingling inside your muscles. The magical energy flows from within the stone and into your muscles restoring your strength. When you look to your watch you realize an hour went by but your body feels recharged and ready to continue exploring.</outcome1Text>
+        <outcome2Text>Magic is not to be trifled with. You decide to avoid the mysterious stone and continue on your way.</outcome2Text>
+        <repeatable>true</repeatable>
+    </event>
+
+    <event>
+        <eventText>As the night falls, you notice a faint glow upon a hill in the distance.</eventText>
+        <button1Text>Approach</button1Text>
+        <button1Outcome>Health +100 Minutes +60</button1Outcome>
+        <button2Text>Stay Back</button2Text>
+        <button2Outcome>Nothing 0</button2Outcome>
+        <outcome1Text>As you crest the hill your gaze falls upon some dancing fireflies. You take a moment to enjoy their dance, reminding yourself of the beauty that still exists in this forsaken world. Their soft glow fades as their dance comes to and end. You may have spent an hour but you feel fully healed by the magic of their dance.</outcome1Text>
+        <outcome2Text>You decide to stay back, but get the strange sense that you missed witnessing something wonderful.</outcome2Text>
+        <repeatable>false</repeatable>
+    </event>
+
+    <event>
+        <eventText>While walking alongside a raging river, a shimmer catches your eye. You turn to look closer and spot an object caught against some rocks. It could be valuable, but the river is moving treacherously fast.</eventText>
+        <button1Text>Retrieve</button1Text>
+        <button1Outcome>Stamina -30 Water +1</button1Outcome>
+        <button2Text>Ignore</button2Text>
+        <button2Outcome>Nothing 0</button2Outcome>
+        <outcome1Text>You brave the cold water in an effort to retrieve the object. The water only comes up to your waist, but any loss of balance could pull you under. You focus your energy into reaching the object and are rewarded for your efforts with a bottle of clean water. You make it back safely to shore but are exhausted and cold.</outcome1Text>
+        <outcome2Text>You decide not to risk the dangerous currents and continue on your way.</outcome2Text>
+        <repeatable>false</repeatable>
+    </event>
+
+    <event>
+        <eventText>As you step into a glade you begin to hear strange whispers from all around you. It's as if the forest itself is communicating with you.</eventText>
+        <button1Text>Listen</button1Text>
+        <button1Outcome>MaxStamina -5 Water +1</button1Outcome>
+        <button2Text>Block Ears</button2Text>
+        <button2Outcome>Minutes +60 Food +1</button2Outcome>
+        <outcome1Text>You strain to try and decipher something within the cacophony of whispers. The wear on your mental fortitude is high but you feel directed to explore a nearby bush. Resting just within is a vial of clean water. You thank the forest for it's aid and the whispers fade into the sound of wind through the trees.</outcome1Text>
+        <outcome2Text>Not wanting to fall prey to some magical creatures trap you cover your ears yet somehow the whispers get louder trying to get your attention. All you can do against the mental onslaught is curl up in a ball and close your eyes, hoping that the noise will soon pass. An hour later you stir awake and before you sits some food. You thank your luck and pick it up unsure what just happened.</outcome2Text>
+        <repeatable>false</repeatable>
+    </event>
+
+    <event>
+        <eventText>Amidst the trees, you discover a hidden shrine with an offering bowl. You recognize some of the rune work depicting one of the forest deities known best for their blood lust.</eventText>
+        <button1Text>Offer Blood</button1Text>
+        <button1Outcome>Health -10 MaxHealth +10</button1Outcome>
+        <button2Text>Walk Away</button2Text>
+        <button2Outcome>Stamina +20</button2Outcome>
+        <outcome1Text>You carefully slice your hand over the bowl offering up your blood in the hope for a blessing. The moment your blood hits the altar, you feel your grievous wounds begin to ease. You thank the god for the blessing of longer life.</outcome1Text>
+        <outcome2Text>You decide not to interfere with the shrine. The deity of blood is not someone you want to get involved with. You walk away feeling recharged to tackle the day.</outcome2Text>
+        <repeatable>false</repeatable>
+    </event>
+
+    <event>
+        <eventText>The clouds darken as a storm appears overhead. You know the storms here can be incredibly dangerous. Something lurks within the storm. </eventText>
+        <button1Text>Press On</button1Text>
+        <button1Outcome>Health -10 MaxHealth -5 Stamina -10</button1Outcome>
+        <button2Text>Wait it Out</button2Text>
+        <button2Outcome>Minutes +180</button2Outcome>
+        <outcome1Text>You know if you push through the storm you will save time. As the storm nears you hear a roaring laughter echoing off the trees. You push against the wind feeling the branches and debris whip against your body. The laughing roar begins to silence as you have weathered the storm. You took some aches and pains but take comfort in knowing it was over quickly.</outcome1Text>
+        <outcome2Text>You find a small cave to wait out the storm in. You try and get some rest but you swear you hear a laughing roar in the storm. Your mind cant rest as it feels like it is taunting you. After 3 hours the storm finally passes leaving you alone with your thoughts again.</outcome2Text>
+        <repeatable>false</repeatable>
+    </event>
+
+    <event>
+        <eventText>Before you is a steep hill. You look for a moment and see a possible shortcut up the hill but it seems risky. The only other option is to take the long way around.</eventText>
+        <button1Text>Climb</button1Text>
+        <button1Outcome>Stamina -20</button1Outcome>
+        <button2Text>Go Around</button2Text>
+        <button2Outcome>Minutes +60</button2Outcome>
+        <outcome1Text>You begin to climb the shortcut ready to save time in your travel. Halfway up you find yourself panting, the exertion of the hike starting to take its toll. You force yourself to the top and look back taking pride in having made it in good time. Your muscles shake a little as if to remind you of the strain they just went through.</outcome1Text>
+        <outcome2Text>You decide to take the longer but safer route, avoiding potential risks and not overexerting yourself. The walk around the hill takes you an extra hour but you know your muscles are thanking you for the decision.</outcome2Text>
+        <repeatable>true</repeatable>
+    </event>
+
+    <event>
+        <eventText>During a rare celestial alignment, the forest becomes infused with magical energy. It is said that you can witness the celestial goddess in times like these.</eventText>
+        <button1Text>Meditate</button1Text>
+        <button1Outcome>Minutes +240 Health +100 Mana +100</button1Outcome>
+        <button2Text>Continue On</button2Text>
+        <button2Outcome>Nothing 0</button2Outcome>
+        <outcome1Text>You find a comfortable spot to sit and meditate, absorbing the magical energies swirling around you. Your mind drifts to memories of kinder days before the loneliness of the woods. When you open your eyes you feel fully healed and your thirst is gone. You look to your watch with shock realizing that 4 hours have passed.</outcome1Text>
+        <outcome2Text>You decide to continue your journey. Meditation takes time that you do not have. You say a quick prayer to the celestial moon and continue on your way.</outcome2Text>
+        <repeatable>false</repeatable>
+    </event>
+
+</events>

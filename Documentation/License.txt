@@ -1,0 +1,34 @@
+License Information for Frostwood Chronicles
+
+JAVE SOURCE CODE
+All code built by Keith Mitchell
+
+Book Used During Development:
+Android Game Programming by Example : Harness the Power of the Android SDK by Building Three Immersive and Captivating Games
+
+Project was built using the methods taught in the book, however the code is heavily adapted and only minor similarities may occur throughout.
+
+A few sections of code are adapted from code provided by ChatGPT. Such methods are commented in the source code where necessary. (EXAMPLE: XML parser)
+
+ART ASSETS
+A variety of art exists in the project under Creative Commons 4.0 Commerical use non attribution licensing. Attribution unnecessary under the license, though I have noted artists here were information was available for brevity.
+
+"food"
+Credit Wenrexa
+
+"tent", "fire", "drink"
+Credit "Matt Firth (shikashipx)" and "game-icons.net"
+
+"arrow"
+In public domain. (Animation was made by me)
+
+Character Sprite
+https://craftpix.net/file-licenses/ (Free use license)
+
+All background images were created by AI using the OpenArt_Creative AI found at https://openart.ai/create
+These images were adjusted in Gimp to meet the project needs.
+
+All remaining art assets are my own creations.
+
+FONT
+SIL Open Font License, Version 1.1. (Free to use in commercial products without credit)
