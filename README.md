@@ -3,6 +3,7 @@ Frostwood Chronicles is a game prototype I built for my Mobile Game Development 
 
 
 **INSTALLATION GUIDE**
+
 Inside the source code folder is a folder titled Frostwood. Open this folder as a project within Android Studio. From here you should simply have to compile the code and it will run.
 
 For replicating testing enviornment use the Pixel 4 API 30 emulator. Most phones should function though, as attempts were made to account for a variety of screen sizes.
